@@ -1,8 +1,20 @@
 # LeRobot SO101 Teleoperation (Bus Servo / Dynamixel-style)
-
+<p align="center">
+  <img src="assets/gif.gif" width="700" height="850">
+</p>
 Teleoperation + safety + logging + replay for a 6-DOF LeRobot SO101 setup using daisy-chained smart servos on a single TTL bus.
+<p align="center">
+  <img src="assets/both_lerobots.jpeg" width="250" height="325">
+  <img src="assets/follower.jpeg" width="250" height="325">
+  <img src="assets/assembling_follower.jpeg" width="250" height="325">
+</p>
 
 ## Hardware topology
+<p align="center">
+  <img src="assets/connection.jpeg" width="250" height="325">
+  <img src="assets/follower_close_up.jpeg" width="250" height="325">
+  <img src="assets/leader.jpeg" width="250" height="325">
+</p>
 Laptop → USB → USB↔TTL adapter board → Servo bus → (Motor 1 → Motor 2 → … → Motor 6)
 
 ## Features
