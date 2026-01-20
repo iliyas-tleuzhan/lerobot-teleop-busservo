@@ -34,4 +34,3 @@ Laptop → USB → USB↔TTL adapter board → Servo bus → (Motor 1 → Motor 
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
----
