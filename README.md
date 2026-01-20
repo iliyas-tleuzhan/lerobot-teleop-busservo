@@ -1,9 +1,9 @@
 # LeRobot SO101 Teleoperation (Bus Servo / Dynamixel-style)
 <p align="center">
-  <img src="assets/gif.gif" width="250" height="325">
+  <img src="assets/gif.gif" width="300">
 </p>
 
-# Teleoperation + safety + logging + replay for a 6-DOF LeRobot SO101 setup using daisy-chained smart servos on a single TTL bus.
+## Teleoperation + safety + logging + replay for a 6-DOF LeRobot SO101 setup using daisy-chained smart servos on a single TTL bus.
 <p align="center">
   <img src="assets/both_lerobots.jpeg" width="250" height="325">
   <img src="assets/follower.jpeg" width="250" height="325">
