@@ -1,0 +1,44 @@
+robot:
+  port: "COM7"           # CHANGE
+  baudrate: 1000000      # common for Dynamixel; change if yours differs
+  protocol_version: 2.0  # 2.0 for most X-series; change if needed
+
+control:
+  hz: 30
+  step_units: 20         # 10-50 typical for 0-4095 range
+  use_present_position_as_start: true
+  home_strategy: "mid"   # "mid" or "from_json_offset"
+
+limits:
+  follower_limits_json: "config/Group_Follower.json"
+
+# Control table addresses (Protocol 2.0 common defaults for Dynamixel X-series)
+dynamixel:
+  torque_enable_addr: 64
+  torque_enable_len: 1
+
+  goal_position_addr: 116
+  goal_position_len: 4
+
+  present_position_addr: 132
+  present_position_len: 4
+
+  operating_mode_addr: 11
+  operating_mode_len: 1
+  position_mode_value: 3      # 3 = Position Control Mode on X-series
+
+keymap:
+  # two keys: decrease / increase
+  j1: ["a", "d"]
+  j2: ["w", "s"]
+  j3: ["j", "l"]
+  j4: ["i", "k"]
+  j5: ["q", "e"]
+  j6: ["u", "o"]
+
+special_keys:
+  home: "h"
+  torque_toggle: "t"
+  estop_hold: "space"
+  quit: "esc"
+  marker: "m"
