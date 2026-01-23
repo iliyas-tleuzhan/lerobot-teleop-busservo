@@ -23,14 +23,15 @@ Laptop → USB → USB↔TTL adapter board → Servo bus → (Motor 1 → Motor 
 </p>
   
 ## Features
-- ✅ Keyboard teleoperation
-- ✅ Safety clamps using real joint ranges (`range_min/range_max`) from `Group_Follower.json`
-- ✅ CSV logging
-- ✅ Replay from logs
-- ✅ Scan tool to verify IDs
+- Keyboard teleoperation
+- Safety clamps using real joint ranges (`range_min/range_max`) from `Group_Follower.json`
+- CSV logging
+- Replay from logs
+- Scan tool to verify IDs
 
 ## Setup (Windows)
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
+```
